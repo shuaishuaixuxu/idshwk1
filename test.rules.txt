@@ -1,1 +1,0 @@
-alert tcp any any -> $HTTP_SERVERS 8080 (flags:A; content:"I am IDS Homework1"; offset:100; depth:100; sid:11;rev:1;)
